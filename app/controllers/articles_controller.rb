@@ -5,7 +5,7 @@ class ArticlesController < ApplicationController
 	def create
   		@article = Article.new(parameters) 
   		@article.save
-  		redirect_to @article
+  		#redirect_to @article
 	end
 
 	def show
